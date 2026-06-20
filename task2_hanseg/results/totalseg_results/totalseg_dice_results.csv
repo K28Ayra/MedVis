@@ -1,0 +1,12 @@
+structure,DSC,note
+Parotid L,0.6119,
+Parotid R,0.3895,
+Submandibular L,0.832,
+Submandibular R,0.8254,
+Optic Nerve L,0.3364,
+Optic Nerve R,0.5466,
+Spinal Cord,0.3908,
+Thyroid,0.8212,
+Carotid L,0.6531,approx: union of 2 TS classes
+Carotid R,0.6676,approx: union of 2 TS classes
+Esophagus (S),0.1098,"approx: TS covers full esophagus, GT is cervical only"
