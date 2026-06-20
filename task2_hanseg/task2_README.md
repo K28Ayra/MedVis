@@ -5,7 +5,7 @@ against the HaN-Seg dataset. This is the second task in this repo, following
 the same evaluate-a-pretrained-model-against-ground-truth approach as Task 1
 (OASIS brain segmentation with SynthSeg).
 
-**Status: pilot test on a single case (case_01). Full-dataset run pending supervisor sign-off.**
+**Status: pilot test on a single case (case_01).**
 
 ## Dataset
 
@@ -84,8 +84,8 @@ Mean DSC across the 11 matched structures: **0.562**
 | Optic Nerve L | 0.336 | lower than expected for a well-defined structure — flagged for follow-up |
 | Esophagus (S) | 0.110 | not a fair comparison: TotalSegmentator segments the full esophagus, HaN-Seg ground truth only the cervical portion |
 
-![Dice Chart](results/totalseg_dice_chart.png)
-![Overlay Comparison](results/totalseg_overlay_comparison.png)
+![Dice Chart](results/totalseg_results/totalseg_dice_chart.png)
+![Overlay Comparison](results/totalseg_results/totalseg_overlay_comparison.png)
 
 ## Limitations
 
