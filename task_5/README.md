@@ -168,56 +168,15 @@ remains necessary.
 
 ---
 
-## 8. Repository structure
 
-```
-task5_ct_mr_registration/
-├── README.md
-├── scripts/
-│   ├── register_ct_mr_syn.py       # resample + SyN registration + mask transfer
-│   ├── registration_results.py     # MI before/after + checkerboard/fusion/edge QC
-│   └── structure_alignment.py      # per-structure outline on CT vs registered MR
-├── results/
-│   └── registration_syn/
-│       └── results/
-│           ├── checkerboard_before_after.png
-│           ├── fusion_overlay.png
-│           ├── edge_overlay.png
-│           ├── mutual_information.png / .csv
-│           └── structures/
-│               ├── overview_all_structures.png
-│               └── <Structure>_alignment.png
-└── .gitignore                      # excludes large .nii.gz / .nrrd volumes
-```
 
 > Large image volumes (`.nii.gz`, `.nrrd`) are **not** committed to git (see `.gitignore`).
 > Only scripts, README, and result figures/CSVs are versioned.
 
 ---
 
-## 9. How to run
 
-```bash
-# environment
-conda activate totalseg_env
-pip install antspyx scipy          # one-time
-
-# 1. registration (edit FIXED_MODALITY / COMMON_SPACING at top if needed)
-python3 scripts/register_ct_mr_syn.py
-
-# 2. quantitative + QC figures
-python3 scripts/registration_results.py
-
-# 3. per-structure alignment figures
-python3 scripts/structure_alignment.py
-```
-
-Run from the case folder containing `case_01_IMG_CT.nii.gz`,
-`case_01_IMG_MR_T1.nrrd`, and `case_01_seg/`.
-
----
-
-## 10. Dependencies
+## 8. Dependencies
 
 - Python 3.10
 - `antspyx` (ANTs SyN registration)
