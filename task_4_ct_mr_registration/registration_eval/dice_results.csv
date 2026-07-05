@@ -1,0 +1,6 @@
+Structure,DSC,Note
+Frontal Sinus,N/A,No HaN-Seg ground truth — visual evaluation only
+Maxillary Sinus,N/A,No HaN-Seg ground truth — visual evaluation only
+Nasal Cavity,N/A,No HaN-Seg ground truth — visual evaluation only
+Mandible,0.9268,"TotalSegmentator (CT) vs HaN-Seg GT, after CT->MR registration"
+Zygomatic Arch,N/A,No HaN-Seg ground truth — visual evaluation only

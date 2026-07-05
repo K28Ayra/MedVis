@@ -1,0 +1,9 @@
+Structure,DSC,Note
+Caudate Nucleus,N/A — no HaN-Seg GT,Visual evaluation only
+Thalamus,N/A — no HaN-Seg GT,Visual evaluation only
+Frontal Sinus,N/A — no HaN-Seg GT,Visual evaluation only
+Maxillary Sinus,N/A — no HaN-Seg GT,Visual evaluation only
+Nasal Cavity,N/A — no HaN-Seg GT,Visual evaluation only
+Mandible,0.0,Compared against HaN-Seg GT
+Zygomatic Arch,N/A — no HaN-Seg GT,Visual evaluation only
+Tongue,N/A — no HaN-Seg GT,Visual evaluation only
